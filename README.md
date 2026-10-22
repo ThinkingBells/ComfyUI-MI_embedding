@@ -32,9 +32,10 @@ No extra dependencies are needed.
 
 | Rows | Text in | Position | Output |
 |------|---------|----------|--------|
-| `easynegative`, 1.0 | `bad hands` | before text | `embedding:easynegative, bad hands` |
-| `AS-YoungV2`, 1.3 + `CSPNY1`, 1.0 | `1girl` | before text | `(embedding:AS-YoungV2:1.3), embedding:CSPNY1, 1girl` |
-| any | `1girl` | disabled | `1girl` |
+| `epiCPhoto.pt`, 1.0 | `1girl` | before text | `embedding:epiCPhoto, 1girl` |
+| `epiCPhoto.pt`, 1.3 | `1girl` | after text | `1girl, (embedding:epiCPhoto:1.3)` |
+| `epiCPhoto.pt`, 0.8 | none | before text | `(embedding:epiCPhoto:0.8)` |
+| `epiCPhoto.pt`, 1.3 | `1girl` | disabled | `1girl` |
 
 Rows set to `(none)` are ignored.
 
