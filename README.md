@@ -2,6 +2,8 @@
 
 A small ComfyUI custom node (shown as **Mi embedding**) to pick textual-inversion embeddings from a dropdown, set the strength of each one and switch the whole thing on or off, all without typing `embedding:name` by hand.
 
+![Mi embedding node](images/screenshot.png)
+
 ## Features
 
 - **Dropdown of your embeddings**: lists every file ComfyUI sees in the `embeddings` folder (including folders added through `extra_model_paths.yaml`).
