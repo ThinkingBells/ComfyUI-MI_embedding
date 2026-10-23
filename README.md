@@ -1,8 +1,8 @@
 # MI_embedding
 
-A small ComfyUI custom node (shown as **Mi embedding**) to pick textual-inversion embeddings from a dropdown, set the strength of each one and switch the whole thing on or off, all without typing `embedding:name` by hand.
+A small ComfyUI custom node (shown as **MI Embedding**) to pick textual-inversion embeddings from a dropdown, set the strength of each one and switch the whole thing on or off, all without typing `embedding:name` by hand.
 
-![Mi embedding node](images/screenshot.png)
+![MI Embedding node](images/screenshot.png)
 
 ## Features
 
@@ -25,7 +25,7 @@ No extra dependencies are needed.
 
 ## Usage
 
-1. Add the node: double-click the canvas and search for **Mi embedding** (category `MI`).
+1. Add the node: double-click the canvas and search for **MI Embedding** (category `MI nodes`).
 2. Optionally connect a `STRING` prompt to the `text` input.
 3. Pick an embedding and set its strength. Use `+` / `-` to add or remove rows.
 4. Connect the `text` output to the text input of a `CLIPTextEncode` node (convert the widget to an input first).

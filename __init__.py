@@ -32,7 +32,7 @@ class MI_embedding:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("text",)
     FUNCTION = "run"
-    CATEGORY = "MI"
+    CATEGORY = "MI nodes"
 
     def run(self, enabled, position, count, text="", **kwargs):
         text = text or ""
@@ -55,4 +55,4 @@ class MI_embedding:
 
 
 NODE_CLASS_MAPPINGS = {"MI_embedding": MI_embedding}
-NODE_DISPLAY_NAME_MAPPINGS = {"MI_embedding": "Mi embedding"}
+NODE_DISPLAY_NAME_MAPPINGS = {"MI_embedding": "MI Embedding"}
